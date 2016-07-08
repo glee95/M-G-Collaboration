@@ -34,3 +34,13 @@ sum_divide_sd(data)
 my_results <- sum_divide_sd(data)
 my_results
 my_results[1]
+
+#trying it again
+round_2 <- function(x){sum(x)/sd(x)}
+round_2(1:5)
+print(round_2)
+
+data <- rnorm(10,2,2)
+round_2(data)
+my_results <- round_2(data)
+print(my_results)
