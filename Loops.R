@@ -13,7 +13,6 @@ while(large_data > 35) {
     break
   }
 }
-
 #I keep seeing plus signs on the left instead of the > sign. Is that normal?
 
 #practicing "for" loops
