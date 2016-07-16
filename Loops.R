@@ -14,7 +14,7 @@ while(large_data > 35) {
   }
 }
 
-#why isn't this working? I keep seeing plus signs on the left instead of the > sign
+#I keep seeing plus signs on the left instead of the > sign. Is that normal?
 
 #practicing "for" loops
 
@@ -31,5 +31,3 @@ for (p in practice) {
 for (i in 1:length(practice)) {
   print(practice[[i]])
 }
-
-#Hi Michael, i'm writing the code exactly as I learned on DataCamp but none of it is working because for some reason, I keep getting the plus signs..do you know what it could be?
