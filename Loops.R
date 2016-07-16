@@ -21,12 +21,10 @@ while(large_data > 35) {
 practice <- matrix(data=1:6, nrow=2, ncol=3)
 print(practice)
 
-
 #version 1
 for (p in practice) {
   print(p)
 }
-
 #version 2
 for (i in 1:length(practice)) {
   print(practice[[i]])
