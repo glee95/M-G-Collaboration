@@ -4,4 +4,4 @@ group_by(RACE.IAT_raw_1)
 latency <- select(RACE.IAT_raw_1, latency)
 summarise(latency, min = min(latency), max = max(latency), avg = mean(latency), med = median(latency), sd = sd(latency), var = var(latency), IQR = IQR(latency), range = diff(range(latency)))
 
-#everything here makes sense except i'm not exactly sure of the functionality in this scenario
+#everything here makes sense except i'm not exactly sure if the group_by function is necessary in this scenario?
